@@ -1,0 +1,20 @@
+Workflow Pseudocode
+
+1. Setup
+    Factors:
+      Define factors from literature
+      Identify defining motifs and length constraints
+    Genomes:
+      Recover species names
+      Recover genomes
+        Recover link bases
+2. For each genome:
+    For each factor:
+      Blast closest experimental factor against genome
+      Reverse blast against originating genome to confirm
+      Check against defining motifs and length constraints
+      Flag for manual attention
+      Add to database
+3. Manually curate flagged entries
+4. Count group gene copy numbers
+5. Produce group consensus sequences
