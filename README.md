@@ -1,2 +1,2 @@
-# fungal-translation
-An exploration of translation factor genes in sequenced fungal genomes
+# fungal-genomes
+Summary information about fungal genomes currently available.
